@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* Commonb CSS */
+:root {
+  --btnPrimary: #e55473;
+  --btnSecondary: #272727;
+  --primary: #272727;
+  --secondary: #27272799;
+  --bgPrimary: #e554730d;
+  --bgSecondary: #2727270d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10%;
+}
+
+/* ============================
+                Header section
+============================ */
+
+.header_container {
+  display: flex;
+  /* padding: 0 10%; */
+  margin: 0 10%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header.header {
+  display: flex;
+  flex-direction: row;
+  background: #e554731a;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5em;
+}
+.header-left {
+  width: 50%;
+}
+
+.header-left p {
+}
+.header-left h1 {
+  font-family: lato;
+  font-weight: 900;
+  font-size: 2.7em;
+}
+
+.header_container img {
+  width: 50%;
+}
+/* ============================
+              Featured Section
+============================ */
+.featured-top h2 {
+  font-size: 1.9em;
+  font-family: "Lato";
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.header-left p {
+  font-family: "Lato";
+  color: rgba(39, 39, 39, 0.6);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin: 2em 0px;
+}
+
+.header-left button {
+  font-family: "Lato";
+  border-radius: 8px;
+  background: #e55473;
+  padding: 1em 2em;
+  border: 0px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.header-right {
+  flex: 1;
+}
+
+.featured-bottom img {
+  width: 95%;
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  margin: 5em 10%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.featured-top {
+  margin-bottom: 3em;
+}
+
+.featured-top h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.featured-top p {
+  width: 450px;
+  font-size: 0.88em;
+  color: #27272799;
+  font-family: "Lato";
+  line-height: 1.7;
+}
+
+.featured-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.featured-bottom img {
+  width: 90%;
+}
+.featured-bottom .image-group {
+  flex: 1;
+  /* margin-right: 15px; */
+}
+.featured-bottom .image-group:last-child {
+  margin-right: 0px;
+}
+
+/* ============================
+              Services Section
+============================ */
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* flex: 1; */
+  background: var(--bgSecondary);
+  margin: 8em 10%;
+}
+.signup-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+}
+.service-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em;
+  /* background: var(--bgSecondary); */
+  /* margin-bottom: 8em; */
+}
+
+.service-group p {
+  font-size: 1em;
+  font-family: "Lato";
+  color: var(--secondary);
+  text-align: center;
+}
+
+.signup-right img {
+  width: 45%;
+}
+/* ============================
+                Signup Section
+============================ */
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bgPrimary);
+  font-family: lato;
+  padding: 3em;
+}
+
+.signup-left img {
+  padding: 1em;
+}
+
+.signup-left p {
+  text-align: center;
+  font-size: 1.1em;
+  color: var(--secondary);
+  font-family: lato;
+  width: 600px;
+  line-height: 1.8;
+  margin: 2em 0;
+}
+.signup-left h2 {
+  color: var(--btnSecondary);
+  font-size: 2em;
+  font-weight: 900;
+}
+.signup-left span {
+  color: var(--btnPrimary);
+}
+.signup-left button {
+  font-family: lato;
+  background: var(--btnPrimary);
+  color: #fff;
+  border: 0;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+.signup-right img {
+}
+
+/* ============================
+            Instagram Section
+============================ */
+.instagram {
+  margin: 5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.instagram-top {
+}
+.instagram-top h3 {
+  font-family: "Lato";
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.instagram-top p {
+  color: var(--secondary);
+  width: 600px;
+  font-size: 1em;
+  font-family: "Lato";
+  line-height: 1.8;
+}
+
+.instragram-bottom {
+  display: flex;
+  width: 100%;
+  margin-top: 3em;
+  justify-content: space-between;
+}
+
+.instragram-bottom div {
+  width: 100%;
+  display: flex;
+  margin-right: 1em;
+}
+.instragram-bottom div:last-child {
+  margin-right: 0rem;
+}
+.instragram-bottom div img {
+  width: 100%;
+}
+/* ============================
+             Subscribe Section
+============================ */
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5em;
+  border-radius: 8px;
+  background-image: url(../images/Rectangle9.png);
+  margin: 0 10%;
+  margin-bottom: 8rem;
+}
+.subscribe h1 {
+  font-family: lato;
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: 0.8em;
+}
+.subscribe p {
+  font-family: lato;
+  color: var(--secondary);
+  font-size: 1em;
+  margin-bottom: 2.5em;
+}
+.subscribe form {
+}
+.subscribe input {
+  width: 600px;
+  padding: 1.2em;
+  border: 0px;
+  font-family: lato;
+  font-size: 1em;
+  border-radius: 8px;
+}
+
+.subscribe button {
+  border: 0px;
+  padding: 18px 40px;
+  background: var(--btnPrimary);
+  font-size: 1.2em;
+  border-radius: 8px;
+  color: #fff;
+  margin: 0.5em;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: auto;
+}
+/* ============================
+             Footer Section
+============================ */
+.footer {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  font-family: lato;
+  padding: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer h2 {
+  font-family: lato;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+.footer p {
+  font-family: lato;
+  font-size: 1.1em;
+  width: 600px;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1em;
+}
+.footer > span {
+  text-align: center;
+  font-size: 0.9em;
+  font-family: lato;
+  color: gray;
+}
+
+.footer h2 > span {
+  color: var(--btnPrimary);
+}
